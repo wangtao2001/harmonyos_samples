@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    ohos:alignment="center">
+
+    <Text
+        ohos:id="$+id:text_title"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="这是MainAbilitySlice"
+        ohos:text_size="20vp"
+        />
+
+    <Button
+        ohos:id="$+id:button_first_ability"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="$graphic:background_button"
+        ohos:text="跳转到FirstAbility"
+        ohos:text_size="20vp"
+        ohos:top_margin="20vp"
+        ohos:left_padding="20vp"
+        ohos:right_padding="20vp"
+        ohos:top_padding="15vp"
+        ohos:bottom_padding="15vp"
+        ohos:text_color="white"
+        />
+
+
+
+</DirectionalLayout>
