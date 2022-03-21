@@ -9,11 +9,16 @@
   },
   "deviceConfig": {},
   "module": {
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.DISTRIBUTED_DATASYNC"
+      }
+    ],
     "package": "info.shuangchen.pageability",
     "name": ".MyApplication",
     "mainAbility": "info.shuangchen.pageability.MainAbility",
     "deviceType": [
-      "phone"
+      "phone", "tablet"
     ],
     "distro": {
       "deliveryWithInstall": true,
@@ -55,6 +60,17 @@
           }
         ],
         "name": "info.shuangchen.pageability.SecondAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {"skills": [
+        {
+          "actions": [
+            "CONTINUATION_ABILITY_SECOND_SLICE2_ACTION"
+          ]
+        }
+        ],
+        "name": "info.shuangchen.pageability.ContinuationAbility",
         "type": "page",
         "launchType": "standard"
       }
