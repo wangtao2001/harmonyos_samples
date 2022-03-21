@@ -24,10 +24,10 @@
         ohos:text="跳转到FirstAbility"
         ohos:text_size="20vp"
         ohos:top_margin="20vp"
-        ohos:left_padding="20vp"
-        ohos:right_padding="20vp"
-        ohos:top_padding="15vp"
-        ohos:bottom_padding="15vp"
+        ohos:left_padding="30vp"
+        ohos:right_padding="30vp"
+        ohos:top_padding="12vp"
+        ohos:bottom_padding="12vp"
         ohos:text_color="white"
         />
 

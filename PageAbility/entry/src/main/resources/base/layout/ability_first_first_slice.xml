@@ -17,6 +17,51 @@
         />
 
     <Button
+        ohos:id="$+id:button_next_slice"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="$graphic:background_button"
+        ohos:text="跳转到FirstAbilitySecondSlice"
+        ohos:text_size="20vp"
+        ohos:top_margin="20vp"
+        ohos:left_padding="30vp"
+        ohos:right_padding="30vp"
+        ohos:top_padding="12vp"
+        ohos:bottom_padding="12vp"
+        ohos:text_color="white"
+        />
+
+    <Button
+        ohos:id="$+id:button_next_ability"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="$graphic:background_button"
+        ohos:text="跳转到SecondAbility"
+        ohos:text_size="20vp"
+        ohos:top_margin="20vp"
+        ohos:left_padding="30vp"
+        ohos:right_padding="30vp"
+        ohos:top_padding="12vp"
+        ohos:bottom_padding="12vp"
+        ohos:text_color="white"
+        />
+
+    <Button
+        ohos:id="$+id:button_next_slice2"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="$graphic:background_button"
+        ohos:text="跳转到SecondAbilitySecondSlice"
+        ohos:text_size="20vp"
+        ohos:top_margin="20vp"
+        ohos:left_padding="30vp"
+        ohos:right_padding="30vp"
+        ohos:top_padding="12vp"
+        ohos:bottom_padding="12vp"
+        ohos:text_color="white"
+        />
+
+    <Button
         ohos:id="$+id:button_back"
         ohos:height="match_content"
         ohos:width="match_content"
@@ -24,10 +69,10 @@
         ohos:text="返回"
         ohos:text_size="20vp"
         ohos:top_margin="20vp"
-        ohos:left_padding="40vp"
-        ohos:right_padding="40vp"
-        ohos:top_padding="15vp"
-        ohos:bottom_padding="15vp"
+        ohos:left_padding="30vp"
+        ohos:right_padding="30vp"
+        ohos:top_padding="12vp"
+        ohos:bottom_padding="12vp"
         ohos:text_color="white"
         />
 </DirectionalLayout>

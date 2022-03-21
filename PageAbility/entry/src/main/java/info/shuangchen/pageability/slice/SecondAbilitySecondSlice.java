@@ -4,24 +4,18 @@ import info.shuangchen.pageability.ResourceTable;
 import ohos.aafwk.ability.AbilitySlice;
 import ohos.aafwk.content.Intent;
 
-public class FirstAbilitySecondSlice extends AbilitySlice {
+public class SecondAbilitySecondSlice extends AbilitySlice {
     @Override
     public void onStart(Intent intent) {
         super.onStart(intent);
-        super.setUIContent(ResourceTable.Layout_ability_first_second_slice);
+        super.setUIContent(ResourceTable.Layout_ability_second_second_slice);
         initComponents();
-        setResult();
     }
 
     private void initComponents() {
         findComponentById(ResourceTable.Id_button_back).setClickedListener(
                 component -> terminate()
         );
-    }
-
-    private void setResult() {
-        Intent intent= new Intent();
-        setResult(intent);
     }
 
     @Override

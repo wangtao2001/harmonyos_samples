@@ -12,7 +12,7 @@
         ohos:width="match_content"
         ohos:background_element="$graphic:background_ability_main"
         ohos:layout_alignment="horizontal_center"
-        ohos:text="这是FirstAbilitySecondSlice"
+        ohos:text="这是SecondAbilitySecondSlice"
         ohos:text_size="20vp"
         />
 
@@ -30,5 +30,4 @@
         ohos:bottom_padding="12vp"
         ohos:text_color="white"
         />
-
 </DirectionalLayout>

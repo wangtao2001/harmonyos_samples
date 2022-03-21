@@ -45,6 +45,18 @@
         "name": "info.shuangchen.pageability.FirstAbility",
         "type": "page",
         "launchType": "standard"
+      },
+      {
+        "skills": [
+          {
+            "actions": [
+              "SECOND_ABILITY_SECOND_SLICE_ACTION"
+            ]
+          }
+        ],
+        "name": "info.shuangchen.pageability.SecondAbility",
+        "type": "page",
+        "launchType": "standard"
       }
     ]
   }
