@@ -8,8 +8,6 @@ import ohos.aafwk.content.Intent;
     import ohos.aafwk.content.Operation;
     import ohos.agp.components.Component;
 
-import static info.shuangchen.pageability.ContinuationAbility.ACTION_CONTINUATION2;
-
 public class MainAbilitySlice extends AbilitySlice {
     @Override
     public void onStart(Intent intent) {
@@ -21,7 +19,6 @@ public class MainAbilitySlice extends AbilitySlice {
     private void initComponents() {
         findComponentById(ResourceTable.Id_button_first_ability).setClickedListener(this::startFirstAbility);
         findComponentById(ResourceTable.Id_button_continue_ability).setClickedListener(this::startContinuationAbility);
-        findComponentById(ResourceTable.Id_button_continue_ability_reversibly).setClickedListener(this::startContinuationAbilityReversibly);
     }
 
 
@@ -38,17 +35,6 @@ public class MainAbilitySlice extends AbilitySlice {
     private void startContinuationAbility(Component component) {
         Intent intent = new Intent();
         Operation operation = new Intent.OperationBuilder().withDeviceId("")
-                .withBundleName(getBundleName())
-                .withAbilityName(ContinuationAbility.class.getName())
-                .build();
-        intent.setOperation(operation);
-        startAbility(intent);
-    }
-
-    private void startContinuationAbilityReversibly(Component component) {
-        Intent intent = new Intent();
-        Operation operation = new Intent.OperationBuilder().withDeviceId("")
-                .withAbilityName(ACTION_CONTINUATION2)
                 .withBundleName(getBundleName())
                 .withAbilityName(ContinuationAbility.class.getName())
                 .build();

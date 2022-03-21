@@ -63,13 +63,7 @@
         "type": "page",
         "launchType": "standard"
       },
-      {"skills": [
-        {
-          "actions": [
-            "CONTINUATION_ABILITY_SECOND_SLICE2_ACTION"
-          ]
-        }
-        ],
+      {
         "name": "info.shuangchen.pageability.ContinuationAbility",
         "type": "page",
         "launchType": "standard"
