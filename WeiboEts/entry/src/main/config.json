@@ -54,8 +54,7 @@
           "pages/index",
           "pages/trending",
           "pages/message",
-          "pages/me",
-          "common/trendingList"
+          "pages/me"
         ],
         "name": "default",
         "window": {

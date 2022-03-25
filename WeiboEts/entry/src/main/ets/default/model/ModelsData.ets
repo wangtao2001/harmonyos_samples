@@ -55,7 +55,7 @@ const Navs: any[] = [
 // 热搜榜单
 const Trendings: any[] = [
   {
-    "title": "民航局展开为期两周行业安全大检查",
+    "title": "民航局展开为期两周行业安全大检查全面排查安全隐患",
     "reading": "5674207",
     "label": TrendingLabel.Hot
   },
@@ -73,6 +73,21 @@ const Trendings: any[] = [
     "title": "河北省教育厅最新发布",
     "reading": "485862",
     "label": TrendingLabel.Boiling
+  },
+  {
+    "title": "B站崩了",
+    "reading": "9563421",
+    "label": TrendingLabel.New
+  },
+  {
+    "title": "回蓝天",
+    "reading": "9087812",
+    "label": TrendingLabel.None
+  },
+  {
+    "title": "就算隔离也隔离不了爱情",
+    "reading": "7863343",
+    "label": TrendingLabel.Hot
   }
 ]
 

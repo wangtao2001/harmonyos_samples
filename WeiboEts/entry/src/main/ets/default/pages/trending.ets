@@ -30,7 +30,7 @@ export struct Trending {
         .fontSize(13)
         .fontColor("#808080")
     }
-    .height("30%")
+    .height("40%")
     .width("100%")
   }
 
@@ -70,7 +70,7 @@ export struct Trending {
           })
       }
       .width("100%")
-      .height(45)
+      .height(50)
       .backgroundColor("#fff")
       Swiper(this.swiperController) {
         Column() {
